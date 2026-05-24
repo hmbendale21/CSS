@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #mainTopic {
     color: blue;
 }
@@ -40,4 +41,48 @@ input[type ="checkbox"]:checked + label {
 h1	Element selector	Lowest
 .main	Class selector	Higher than element
 div .main	Element + class selector	Higher
+=======
+#mainTopic {
+    color: blue;
+}
+
+*{
+    text-align: center;
+}
+
+h1 , h3, h4, h5{
+    font-family: "georgia";
+}
+
+.para{
+    color : white;
+    background-color: cornflowerblue;
+}
+
+button{
+    background-color: purple;
+    color:azure;
+}
+
+button:hover{
+    background-color: yellow;
+    color:blue;
+}
+.para:nth-of-type(2n+1){
+    color : yellow;
+}
+
+h1:first-letter{
+    color: red;
+}
+
+input[type ="checkbox"]:checked + label {
+    color : darkgreen;
+}
+
+/* Selector	Type	Specificity
+h1	Element selector	Lowest
+.main	Class selector	Higher than element
+div .main	Element + class selector	Higher
+>>>>>>> 37afa1e98622776d7bd1e06ee1e3126fdb8d6ea8
 #mainContent	ID selector	Highest */
