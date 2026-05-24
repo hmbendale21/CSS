@@ -1,0 +1,31 @@
+h1{
+    display:inline;
+}
+
+/* div is a block element */
+.block{
+    display:inline;
+}
+/* span is an inline element */
+
+.inline{
+    display:block;
+}
+
+div{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: lime;
+    /* inline-block is used for to apply block properties to inline element and inline properties to block element */
+    display:inline-block;
+}
+/* use to remove temprory from webpage*/
+#gayab{
+    display:none;
+}
+
+percentage em and rem
+ %        em use for the to analyse anything from the parent 
+          rem is the root of the em it use when there is several child is present to gain anything from the parent
