@@ -1,0 +1,61 @@
+/* Height and width */
+div{
+    height: 200px;
+    width: 700px;
+}
+
+/* Border -> border-width, border-color, border-style */
+
+/* div{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+} */
+
+h1{
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+}
+
+/* bordershorthand width , style , color  */
+/* border sides -> border-top, border-bottom, border-left, border-right */
+div{
+    border: 5px solid yellow;
+    border-top-style:dashed;
+    border-top-color:blue;
+}
+
+/* border radius -> border-radius: 10px; (for all corners) */
+
+div{
+    /* border-radius: 20px; */
+    /* border-radius: 10%; */
+    /* border-top-right-radius: 20px; */
+    /* border-radius:10px 100px; */
+      
+}
+
+/* Padding -> padding-top, padding-bottom, padding-left, padding-right */
+
+button{
+    background-color: rgb(235, 202, 135);
+    font-family: georgia;
+    color:darkred;
+    /* padding-left: 20px; */   
+    padding: 20px;     
+/* clockwise from top -> padding: 10px 20px 30px 40px; (top right bottom left) */
+    padding: 10px 20px 30px 40px;
+}
+
+/* margin -> margin-top, margin-bottom, margin-left, margin-right outspace between elements or block of elements */
+
+/* top | left & right | bottom  */
+/* div{
+    margin: 15px 30px 40px;
+} */
+
+/* for 4 sides  */
+div{
+    margin: 30px;
+}

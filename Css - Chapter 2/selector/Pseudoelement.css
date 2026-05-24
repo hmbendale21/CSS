@@ -1,0 +1,27 @@
+h1::first-letter {
+    color : rgb(35, 5, 5);
+}
+
+p::first-line {
+    color : rgb(189, 86, 165)
+}
+
+p::selection {
+    background-color : yellow;
+}
+
+/* Cascading and Specificity = when more than one rule could apply to the same element, the browser uses a set of rules to determine which one to use. This is called cascading and specificity. The rule with the highest specificity will be applied to the element. If two rules have the same specificity, the one that appears last in the CSS will be applied.  */
+
+/* 1. id >  class > element selector
+2. More selector > less selector
+3. if specificity is the same , the one that appears last in the CSS will be applied. */
+
+/* Important rule = if you want to override a rule with a higher specificity, you can use the !important rule. This will make the rule take precedence over all other rules, regardless of their specificity. However, it is generally not recommended to use the !important rule, as it can make your CSS difficult to maintain and debug. It should only be used as a last resort when you need to override a specific rule that cannot be changed otherwise. */ 
+
+h1 {
+    background-color: lightblue !important;      
+}
+
+/* here this will never change the background color of h1 to lightblue because it is not a valid property and also it is not recommended to use !important rule as it can make your CSS difficult to maintain and debug. It should only be used as a last resort when you need to override a specific rule that cannot be changed otherwise. */
+
+/* Inheritance = when a property is inherited from a parent element to its child elements. This means that if you set a property on a parent element, it will be inherited by all of its child elements, unless you override it with a more specific rule. For example, if you set the color property on a div element, all of the text inside that div will inherit that color, unless you set a different color on a child element. Inheritance can be useful for creating consistent styles across your website, but it can also lead to unexpected results if you're not careful. It's important to understand how inheritance works in CSS so that you can use it effectively in your designs. */ */
