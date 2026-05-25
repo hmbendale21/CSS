@@ -1,0 +1,17 @@
+#ts {
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    /* transition-duration: 1s ;
+    transition-delay: 1s; */ 
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+
+#ts:hover{
+    background-color: chocolate;
+    border-radius: 50%;
+    margin-top: 400px;
+
+}
