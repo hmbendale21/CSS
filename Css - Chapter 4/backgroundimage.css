@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     height: 250px;
     width: 300px;
@@ -5,4 +6,13 @@ div{
     margin: 10px auto;
     background-image: url("background.jpg");
     background-size: cover;
+=======
+div{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(144, 255, 127);
+    margin: 10px auto;
+    background-image: url("background.jpg");
+    background-size: cover;
+>>>>>>> 6cde91c (Updated Chapter 4)
 }
