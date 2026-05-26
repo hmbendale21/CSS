@@ -1,0 +1,49 @@
+section{
+    margin-top: 100px;
+}   
+div{
+    height: 50px;
+    width: 200px;
+    background-color: #7aa874;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    transition: 2s ease-in 0.2s
+}
+
+div:nth-of-type(2n) {
+    background-color: darkcyan;
+}
+
+div:nth-of-type(3n) {
+    background-color: hotpink;
+}
+/* hover to rotate | transform Rotate property */
+#one:hover{
+    transform: rotate(180deg);
+}
+/* first box */
+#one {
+    transition: 2s ease-in 0.2s;
+}
+/* transform :scale (x,y) | (xy) | x()  | y() */
+
+#two{
+    transform: scale(0.5 , 1.5) 
+}
+
+/* Translate : this for moving opject from one place to another */
+#three{
+    /* transform:translate(100px , 100px) */
+    transform: translateX(100px);
+    /* transform: translateY(100px); */
+
+}
+/* skew : here it tilted the element according to degree */
+#four{
+    transform: skew(45deg)
+}
+
+#five{
+    transform: rotate(32deg) translateX(150px);
+}
