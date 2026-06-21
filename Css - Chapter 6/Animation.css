@@ -1,0 +1,54 @@
+.box{
+    height: 100px;
+    width : 500px;
+    background-color: aquamarine;
+
+    /* Animation-name: Coloranimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    /* Shorthand  */
+    animation: Him 5s ease-in 0s infinite alternate ;
+
+}
+
+@keyframes fontanimation {
+    from{
+        font-size:20px
+    }
+    to{
+        font-size: 100px
+    }    
+}
+
+@keyframes Coloranimation{
+    from{
+        background-color: aquamarine;
+    }
+    to {
+        background-color: burlywood;
+    }
+}
+
+/* we can add multiple function at one keyframe  eg :*/
+/* and also there is % wise animation work step wise */
+
+@keyframes Him{
+    0%{
+        background-color:red;
+        font-size: 20px;
+    }
+    60%{
+        background-color: beige;
+        font-size: 60px;
+    }
+    100%{
+        background-color: blue;
+        font-size: 100px
+        border:2px solid Black;
+    }
+}
+
