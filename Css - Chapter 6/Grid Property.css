@@ -1,0 +1,36 @@
+.Container {
+    width : 600px;
+    height : 300px;
+    background-color: rgba(42, 229, 13, 0.737);
+    display: Grid;
+
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3 ,1fr);  
+
+    row-gap: 10px;
+    column-gap: 10px;
+
+    Grid property 
+/* 
+    justify-items: center;
+    align-items: center; */
+
+    place-items: end;
+}   
+
+.item {
+    width : 100px;
+    height :50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align:center;
+}
+
+.one {
+    /* grid-column-start: 1;
+    grid-column-end :4;  */
+     /* shorthand * = start col / end col /*/
+    /* grid-column: 1/2;
+    justify-item: end;
+    align-item: center; */
+}
