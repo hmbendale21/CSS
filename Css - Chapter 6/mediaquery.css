@@ -1,0 +1,39 @@
+h1{
+    background-color:burlywood;
+    border : 2px solid black
+}
+ /* in it , when exactly coming at 400px it changes it effect ccoring to set  */
+@media (width: 400px) {
+    h1{
+        background-color: chartreuse;
+        color:beige;
+    }
+}
+/* until it becames lower than 400 it remain color as set here */
+@media (min-width : 500px){
+    h1{
+        background-color:greenyellow;
+    }
+}
+/* foreg : a until end  */
+@media (max-width: 200px){
+    h1{
+        background-color: pink;
+    }
+}
+
+/* between this 2 px */
+@media (min-width : 200px) and (max-width : 300px){
+    h1{
+        background-color: blueviolet;
+    }
+}
+
+/* Oreintation */
+
+@media (Orientation: Landscape){
+    h1{
+        background-color: chartreuse;
+        color:blanchedalmond;
+    }
+}
