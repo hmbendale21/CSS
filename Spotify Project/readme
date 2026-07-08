@@ -1,0 +1,52 @@
+🎵 Spotify Clone
+📌 Introduction
+
+A responsive Spotify Web Player Clone built using HTML5 and CSS3. This project recreates the modern Spotify user interface with a focus on clean design, responsive layout, and smooth user experience. It was developed to strengthen front-end development skills by implementing real-world UI components using only HTML and CSS.
+
+📖 About
+
+This project is a static clone of the Spotify Web Player designed to closely resemble the original interface. It includes a fully structured sidebar, navigation bar, music cards, and a custom-designed music player with interactive hover effects inspired by Spotify.
+
+The project demonstrates the use of modern CSS techniques such as Flexbox, responsive layouts, custom range sliders, hover animations, and reusable UI components while maintaining a clean and organized code structure.
+
+✨ Features
+🎵 Spotify-inspired modern UI
+📱 Responsive layout
+🎧 Bottom music player
+🎚️ Interactive progress bar
+🔊 Spotify-style volume slider
+🖼️ Album artwork section
+📚 Sidebar with Library
+🔍 Search & Home navigation
+🎼 Music cards with hover effects
+💎 Premium & Install App buttons
+⚡ Built using pure HTML & CSS
+
+
+🛠️ Technologies Used
+HTML5
+CSS3
+Flexbox
+Font Awesome
+Google Fonts (Montserrat)
+
+
+🎯 What I Learned
+Creating responsive web layouts
+Using Flexbox effectively
+Designing modern user interfaces
+Building custom sliders using CSS
+Implementing hover animations
+Structuring reusable components
+Improving UI/UX consistency
+
+
+🚀 Future Improvements
+Add JavaScript functionality
+Music playback controls
+Volume control functionality
+Dark/Light theme
+Responsive mobile version
+Playlist navigation
+Search functionality
+Spotify Web API integration
