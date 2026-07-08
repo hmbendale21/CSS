@@ -53,4 +53,3 @@ Spotify Web API integration
 
 📷 Preview
 ![Spotify Clone](./spotify.png)
-<img src="./spotify.png" width="100%">
