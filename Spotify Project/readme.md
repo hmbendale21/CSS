@@ -52,4 +52,4 @@ Search functionality
 Spotify Web API integration
 
 📷 Preview
-![Spotify Clone](./spotify.png)
+![Spotify Clone](./spotify123.png)
